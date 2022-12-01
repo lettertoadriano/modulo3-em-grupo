@@ -1,0 +1,36 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://greatbritishmag.co.uk/wp-content/uploads/2018/08/Pub-culture-featured-compressed.jpg);
+    height: 90vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.welcome-text{
+    text-align: center;
+}
+
+.welcome-text h1{
+    padding-top: 200px;
+    color: #FFD501;
+    font-size: 100px;
+    text-shadow:
+    0 0 7px #FFD501,
+    0 0 151px #FFD501;
+}
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  /*TIME*/
+

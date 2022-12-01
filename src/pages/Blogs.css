@@ -1,0 +1,86 @@
+.about-section1 {
+    padding: 50px;
+    text-align: center;
+    background-color: BLACK;
+    color: white;
+  }
+
+  .features1{
+    background: black;
+    height: 110vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.heading1{
+    text-align: center;
+    color: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding: 1rem;
+    padding-top: 50px;
+    text-shadow: 0 0 0.7rem black;
+}
+
+.features1 p{
+    text-align: center;
+    color: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.features1 .box-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.features1 .box-container1 .box1:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+}
+
+.features1 .box-container1 .box1{
+    flex: 1 1 0rem;
+    background: white;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    margin: 1.9rem;
+    padding: 2rem 1rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: all .35s ease;
+}
+
+.features1 .box-container1 .box1 img{
+    height: 15rem;
+}
+
+.features1 .box-container1 .box1 h3{
+        font-size: 1.6rem;
+        color: black;
+        padding-top: 1rem;
+}
+.features1 .box-container1 .box1 p{
+    font-size: 1.4rem;
+    color: black;
+    padding-top: 1rem;
+}
+
+.features1 .box-container1 .box1 a{
+    font-size: 1.3rem;
+    color: white;
+    padding: 0.5rem;
+    background-color: #5065d5;
+    text-decoration: none;
+    border-radius: 50px;
+}

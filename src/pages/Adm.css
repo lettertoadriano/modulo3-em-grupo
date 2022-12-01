@@ -1,0 +1,146 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://greatbritishmag.co.uk/wp-content/uploads/2018/08/Pub-culture-featured-compressed.jpg);
+}
+
+.container {
+    width: 100vw;
+  }
+  .containerAreaGestor {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+    background: rgb(0, 0, 0);
+  }
+  
+  .titleAreaGestor {
+    font-family: Indie;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .subTitleAreaGestor {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    vertical-align: middle;
+    width: 100%;
+    height: 80%;
+    font-size: 15px;
+  }
+  .paragrafo1 {
+    margin-left: 5px;
+    color: #FFD501;
+  }
+
+  
+  .sectionAreaGestor {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 20rem;
+    margin: 1.5rem auto;
+  }
+  .inputEmail,
+  .inputSenha {
+    border: solid 2px #FFD501;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    font-size: 16px;
+    padding: .7em 0 .7rem .7rem;
+    width: 100%;
+  }
+  .sectionAreaGestor label {
+    color: white;
+    font-weight: bold;
+    pointer-events: none;
+    font-size: 14px;
+  } 
+  .btnAreaGestor {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .btnConectese {
+    background-color: #FFD501;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .btnConectarGoogle {
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.212);
+  }
+  .subtitleEsqueceu {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  .paragrafo2 {
+    color: #FFD501;
+    margin-left: 5px;
+  }
+  
+  @media (min-width: 770px) {
+    .containerAreaGestor {
+      width: 40%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      border: solid 2px #FFD501;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+    .sectionAreaGestor{
+      margin: 2rem auto;
+    }
+    .logoAreaGestor {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 20%;
+    }
+    .titleAreaGestor {
+      font-family: Indie;
+      align-items: center;
+      margin: 0 auto;
+      font-size: 40px;
+    }
+    .subTitleAreaGestor {
+      display: flex;
+      justify-content: center;
+      text-align: justify;
+      vertical-align: middle;
+      width: 100%;
+      height: 80%;
+      font-size: 25px;
+    }
+    .inputEmail {
+      padding: 9px;
+    }
+    .inputSenha {
+      padding: 9px;
+    }
+    .btnConectese {
+      padding: 8px;
+    }
+    .btnConectarGoogle {
+      padding: 8px;
+    }
+    .subtitleEsqueceu {
+      font-size: 20px;
+      margin-top: 5px;
+    }
+  }

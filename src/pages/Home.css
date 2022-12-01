@@ -1,0 +1,177 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://greatbritishmag.co.uk/wp-content/uploads/2018/08/Pub-culture-featured-compressed.jpg);
+    height: 90vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.welcome-text{
+    text-align: center;
+}
+
+.welcome-text h1{
+    padding-top: 200px;
+    color: #FFD501;
+    font-size: 100px;
+    text-shadow:
+    0 0 7px #FFD501,
+    0 0 151px #FFD501;
+}
+
+.welcome-text p{
+    width: 500px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+}
+
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+
+@media (max-width:600px){
+    .wrapper {
+width: 100%;
+}
+.logo {
+float: none;
+width: 50%;
+text-align: center;
+margin: auto;
+}
+
+.nav-area {
+float: none;
+margin-top: 0;
+}
+    .nav-area li a {
+padding: 5px;
+font-size: 11px;
+}
+.nav-area {
+text-align: center;
+}
+    .welcome-text {
+width: 100%;
+height: auto;
+margin: 30% 0;
+
+}
+    .welcome-text h1 {
+font-size: 30px;
+}
+}
+
+/*MAIS PEDIDOS*/
+
+
+.features{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://th.bing.com/th/id/R.99c02132933ed3ca7336d7db14fc66fa?rik=RxhM19%2fB71xyKg&riu=http%3a%2f%2fwww.blogs.hss.ed.ac.uk%2fpubs-and-publications%2ffiles%2f2015%2f09%2fIMG_3765_2048x1366.jpg&ehk=s3W%2bSCEMqnfNaEftl9n76mW3D2rQXK2er8MBAUXB32U%3d&risl=&pid=ImgRaw&r=0);
+    height: 120vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative; 
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding: 1rem;
+    padding-top: 50px;
+    text-shadow: 0 0 0.7rem black;
+}
+
+.features p{
+    text-align: center;
+    color: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.features .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.features .box-container .box:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+}
+
+.features .box-container .box{
+    flex: 1 1 0rem;
+    background: white;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    margin: 4rem;
+    padding: 2rem 1rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: all .35s ease;
+}
+
+.features .box-container .box img{
+    height: 15rem;
+}
+
+.features .box-container .box h3{
+        font-size: 1.6rem;
+        color: black;
+        padding-top: 1rem;
+}
+.features .box-container .box p{
+    font-size: 1.4rem;
+    color: black;
+    padding-top: 1rem;
+}
+
+.features .box-container .box a{
+    font-size: 1.3rem;
+    color: white;
+    padding: 0.5rem;
+    background-color: #5065d5;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
